@@ -1,0 +1,16 @@
+<WCH v="2">
+<item n="irthermo3_getObjectTemperature_Sc1_L0" r="0" s="True" e="True" i="0"/>
+<item n="irthermo3_getObjectTemperature_Sc2_L0" r="0" s="True" e="True" i="1"/>
+<item n="irthermo3_getObjectTemperature_RAM6_L0" r="0" s="True" e="True" i="2"/>
+<item n="irthermo3_getObjectTemperature_RAM9_L0" r="0" s="True" e="True" i="3"/>
+<item n="irthermo3_getObjectTemperature_VRta_L0" r="3" s="True" e="True" i="4"/>
+<item n="irthermo3_getObjectTemperature_AMB_L0" r="3" s="True" e="True" i="5"/>
+<item n="irthermo3_getObjectTemperature_Ta_L0" r="3" s="True" e="True" i="6"/>
+<item n="irthermo3_getObjectTemperature_VRto_L0" r="3" s="True" e="True" i="7"/>
+<item n="irthermo3_getObjectTemperature_TAdut_L0" r="3" s="True" e="True" i="8"/>
+<item n="irthermo3_getObjectTemperature_TAdutK_L0" r="3" s="True" e="True" i="9"/>
+<item n="irthermo3_getObjectTemperature_TO_clc_L0" r="3" s="True" e="True" i="10"/>
+<item n="irthermo3_getObjectTemperature_TO_L0" r="3" s="True" e="True" i="11"/>
+<item n="irthermo3_getObjectTemperature_Sto_L0" r="3" s="True" e="True" i="12"/>
+<item n="_ambientTemp" r="3" s="True" e="True" i="13"/>
+</WCH>

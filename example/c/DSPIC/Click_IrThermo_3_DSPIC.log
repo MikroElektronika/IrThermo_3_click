@@ -1,0 +1,36 @@
+0	1	mikroCdsPIC.exe -MSF -DBG -pP33FJ256GP710A -RA -DL -SSA -O11111114 -fo8 -N"D:\IrThermo3click\IrThermo3click\example\c\DSPIC\Click_IrThermo_3_DSPIC.mcpds" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Uses\" -SP"D:\IrThermo3click\IrThermo3click\example\c\DSPIC\" -SP"D:\IrThermo3click\IrThermo3click\library\HAL\" -SP"D:\IrThermo3click\IrThermo3click\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Uses\" -IP"D:\IrThermo3click\IrThermo3click\example\c\DSPIC\" -IP"D:\IrThermo3click\IrThermo3click\library\" -IP"D:\IrThermo3click\IrThermo3click\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Packages\mikroBUS Board Definition API\Uses\" "Click_IrThermo_3_DSPIC.c" "__irthermo3_Driver.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_I2C_12_p24_p33.mcl" "__Lib_UART_12_p24_p33.mcl" "easypicfusion_v7_P33FJ256GP710A.mcl" "Click_IrThermo_3.pld"	 
+diagnostics: 0	121	Loading...	 
+diagnostics: 0	122	Compilation Started	P33FJ256GP710A.c
+diagnostics: 16800	123	Compiled Successfully	P33FJ256GP710A.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 695	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 348	123	Compiled Successfully	easypicfusion_v7_P33FJ256GP710A.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 82	123	Compiled Successfully	Click_IrThermo_3_DSPIC.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 407	123	Compiled Successfully	__irthermo3_Driver.c
+hint: 323	1164	Variable 'tmp' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 95	1164	Variable 'tmp' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 133	1164	Variable 'retValue' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 138	1164	Variable 'mode' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 144	1164	Variable 'reg' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 150	1164	Variable 'reg' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 156	1164	Variable 'reg' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 173	1164	Variable 'retValue' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 179	1164	Variable 'retValue' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 184	1164	Variable 'retValue' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 325	1164	Variable 'reg' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 333	1164	Variable 'VRta' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 333	1164	Variable 'ambientTemp' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 355	1164	Variable 'objectTemp' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 355	1164	Variable 'sensorTemp' has been eliminated by optimizer	__irthermo3_Driver.c
+hint: 355	1164	Variable 'VRta' has been eliminated by optimizer	__irthermo3_Driver.c
+diagnostics: 0	127	All files Compiled in 94 ms	 
+hint: 0	1144	Used RX (bytes): 32 (100%)   Free RX (bytes): 0 (0%)	Used RX (bytes): 32 (100%)   Free RX (bytes): 0 (0%)
+hint: 0	1144	Static RAM (bytes): 111   Dynamic RAM (bytes): 30608	Static RAM (bytes): 111   Dynamic RAM (bytes): 30608
+hint: 0	1144	Used ROM (bytes): 7479 (4%)  Free ROM (bytes): 167625 (96%)	Used ROM (bytes): 7479 (4%)  Free ROM (bytes): 167625 (96%)
+diagnostics: 0	125	Project Linked Successfully	Click_IrThermo_3_DSPIC.mcpds
+diagnostics: 0	128	Linked in 281 ms	 
+diagnostics: 0	129	Project 'Click_IrThermo_3_DSPIC.mcpds' completed: 1155 ms	 
+diagnostics: 0	103	Finished successfully: 10 Jul 2018, 10:17:37	Click_IrThermo_3_DSPIC.mcpds

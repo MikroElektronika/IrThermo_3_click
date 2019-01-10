@@ -1,0 +1,97 @@
+0	1	mikroCARM.exe -MSF -DBG -pMSP432P401R -RA -BIN -DL -SSA -O11111114 -fo48 -N"D:\IrThermo3click\IrThermo3click\example\c\ARM\MSP\Click_IrThermo_3_MSP.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\TI M4\" -SP"D:\IrThermo3click\IrThermo3click\example\c\ARM\MSP\" -SP"D:\IrThermo3click\IrThermo3click\library\HAL\" -SP"D:\IrThermo3click\IrThermo3click\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Memory manager dlmalloc\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\TI M4\" -IP"D:\IrThermo3click\IrThermo3click\example\c\ARM\MSP\" -IP"D:\IrThermo3click\IrThermo3click\library\" -IP"D:\IrThermo3click\IrThermo3click\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Memory manager dlmalloc\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" "Click_IrThermo_3_MSP.c" "__irthermo3_driver.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays_MSP432.emcl" "__Lib_System_MSP432P.emcl" "__Lib_GPIO_MSP_Defs.emcl" "__Lib_GPIO_MSP.emcl" "__Lib_CString.emcl" "__Lib_CMath.emcl" "__Lib_Conversions.emcl" "__Lib_I2C_MSP.emcl" "__Lib_UART_MSP.emcl" "clicker_2_MSP432.emcl" "Click_IrThermo_3.pld"	 
+diagnostics: 0	122	Compilation Started	MSP432P401R.c
+diagnostics: 34418	123	Compiled Successfully	MSP432P401R.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays_MSP432.c
+diagnostics: 118	123	Compiled Successfully	__Lib_Delays_MSP432.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays_MSP432.c
+hint: 87	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays_MSP432.c
+hint: 104	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays_MSP432.c
+diagnostics: 0	122	Compilation Started	__gpio_msp.h
+diagnostics: 236	123	Compiled Successfully	__Lib_GPIO_MSP_Defs.c
+diagnostics: 0	122	Compilation Started	stdint.h
+warning: 85	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 85	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 86	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 86	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 87	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 87	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 88	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 88	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 89	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 89	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 90	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 90	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 91	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 91	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 92	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 92	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 93	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 93	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 94	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 94	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 95	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 95	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 96	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 96	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 106	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 106	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 107	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 107	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 108	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 108	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 109	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 109	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 110	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 110	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 111	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 111	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 112	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 112	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 113	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 113	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 114	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 114	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 115	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 115	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 116	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 116	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 117	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+warning: 117	1505	Suspicious pointer conversion	__c2_msp432_gpio.c
+diagnostics: 348	123	Compiled Successfully	clicker_2_MSP432.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 82	123	Compiled Successfully	Click_IrThermo_3_MSP.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 407	123	Compiled Successfully	__irthermo3_driver.c
+hint: 323	1164	Variable 'tmp' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 81	1164	Variable 'tmp' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 96	1164	Variable 'ptr' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 104	1164	Variable 'ptr' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 133	1164	Variable 'retValue' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 138	1164	Variable 'mode' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 144	1164	Variable 'reg' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 150	1164	Variable 'reg' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 156	1164	Variable 'reg' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 173	1164	Variable 'retValue' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 179	1164	Variable 'retValue' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 184	1164	Variable 'retValue' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 325	1164	Variable 'reg' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 332	1164	Variable 'nineRAM' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 333	1164	Variable 'VRta' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 333	1164	Variable 'AMB' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 333	1164	Variable 'ambientTemp' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 354	1164	Variable 'S' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 355	1164	Variable 'VRto' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 355	1164	Variable 'Sto' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 355	1164	Variable 'TAdut' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 355	1164	Variable 'TAdutK' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 355	1164	Variable 'objectTemp' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 355	1164	Variable 'sensorTemp' has been eliminated by optimizer	__irthermo3_driver.c
+hint: 355	1164	Variable 'VRta' has been eliminated by optimizer	__irthermo3_driver.c
+diagnostics: 0	127	All files Compiled in 94 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 172   Dynamic RAM (bytes): 65361	Static RAM (bytes): 172   Dynamic RAM (bytes): 65361
+hint: 0	1144	Used ROM (bytes): 13376 (5%)  Free ROM (bytes): 248768 (95%)	Used ROM (bytes): 13376 (5%)  Free ROM (bytes): 248768 (95%)
+diagnostics: 0	125	Project Linked Successfully	Click_IrThermo_3_MSP.mcpar
+diagnostics: 0	128	Linked in 280 ms	 
+diagnostics: 0	129	Project 'Click_IrThermo_3_MSP.mcpar' completed: 1185 ms	 
+diagnostics: 0	103	Finished successfully: 10 Jul 2018, 10:31:22	Click_IrThermo_3_MSP.mcpar

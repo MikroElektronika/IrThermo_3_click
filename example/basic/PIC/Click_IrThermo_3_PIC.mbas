@@ -1,0 +1,69 @@
+'
+'Example for IrThermo_3 Click
+'
+'    Date          : Jul 2018.
+'    Author        : MikroE Team
+'
+'Test configuration PIC :
+'    
+'    MCU             : P18F87K22
+'    Dev. Board      : EasyPIC PRO v7
+'    PIC Compiler ver : v7.2.0.0
+'
+'---
+'
+'Description :
+'
+'The application is composed of three sections :
+'
+'- System Initialization - Initializes I2C module
+'- Application Initialization - Driver init and chip initialization
+'- Application Task - Reads the ambient temperature and temperature of the object every 400ms.
+'
+'
+program Click_IrThermo_3_PIC
+
+include Click_IrThermo_3_types
+include Click_IrThermo_3_config
+dim
+    demoText as char[23] 
+    ambientTemp as float 
+    objectTemp as float 
+    
+sub procedure systemInit() 
+    mikrobus_i2cInit(_MIKROBUS1, @_IRTHERMO3_I2C_CFG[0]) 
+    mikrobus_logInit(_LOG_USBUART, 115200) 
+    Delay_ms(100) 
+    mikrobus_logWrite("--- System init ---", _LOG_LINE) 
+end sub
+
+sub procedure applicationInit() 
+    irthermo3_i2cDriverInit(T_IRTHERMO3_P(@_MIKROBUS1_GPIO), T_IRTHERMO3_P(@_MIKROBUS1_I2C), 0x3A) 
+    mikrobus_logWrite("--- Application init ---", _LOG_LINE) 
+    irthermo3_deviceReset() 
+    irthermo3_init() 
+    Delay_ms(500) 
+    mikrobus_logWrite("--- Start measurement ---", _LOG_LINE) 
+end sub
+
+sub procedure applicationTask() 
+    ambientTemp = irthermo3_getAmbientTemperature() 
+    mikrobus_logWrite(" Ambient temperature : ", _LOG_TEXT) 
+    FloatToStr(ambientTemp, demoText) 
+    mikrobus_logWrite(demoText, _LOG_LINE) 
+    objectTemp = irthermo3_getObjectTemperature() 
+    mikrobus_logWrite(" Object temperature :", _LOG_TEXT) 
+    FloatToStr(objectTemp, demoText) 
+    mikrobus_logWrite(demoText, _LOG_LINE) 
+    mikrobus_logWrite(" ", _LOG_LINE) 
+    Delay_ms(1000) 
+end sub
+
+main :
+
+    systemInit() 
+    applicationInit() 
+    while (1) 
+        applicationTask() 
+    wend
+end.
